@@ -4,6 +4,7 @@ JMJPFU
 THis is the script for the GAN lab
 Lord bless this attempt of yours
 '''
+
 # Import the required library functions
 from configparser import ConfigParser
 import argparse
@@ -24,3 +25,5 @@ from tensorflow.keras.optimizers import Adam
 ap = argparse.ArgumentParser()
 ap.add_argument('--configfile',required=True,help='This is the path to the configuration files')
 args = ap.parse_args()
+
+# Getting the configuration parsers in place
